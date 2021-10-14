@@ -55,7 +55,7 @@ steps:
   condition: succeeded()
 
 schedules:
-- cron: "0 9 * * *"
+- cron: "0 9 * * Mon,Tue,Wed,Thu,Fri"
   displayName: Daily 3am build
   branches:
     include:
